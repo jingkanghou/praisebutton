@@ -15,7 +15,7 @@ initRouter.init(app, router);
 module.exports = app;
 
 app.listen(config.get('port'), function () {
-  console.log('app is listening at port 3000');
+  console.log('app started, listening at port 3000');
 });    
 
     
