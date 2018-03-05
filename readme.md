@@ -291,3 +291,9 @@ http {
 https://www.jianshu.com/p/01f574b1a29f  
 http://blog.csdn.net/tjcyjd/article/details/50695922  
   
+#### Travis-CI
+- 配合GitHub(成功在travis运行测试，但github中未能得到返回结果)
+  - [持续集成平台：travis](http://wiki.jikexueyuan.com/project/node-lessons/travis.html)
+  - [利用Travis CI 让你的github项目持续构建(Node.js为例)](https://www.cnblogs.com/whitewolf/archive/2013/04/14/3019838.html)
+- 自己的服务器部署(未实践)
+  - [利用travis-ci持续部署nodejs应用](http://cnodejs.org/topic/5885f19c171f3bc843f6017e)
