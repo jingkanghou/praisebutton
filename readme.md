@@ -1,4 +1,4 @@
-
+![build status](https://www.travis-ci.org/jingkanghou/praisebutton.svg?branch=master)
 ## 结构  
 - 项目分层  
 Browser-->Node-->php-->mySQL  
