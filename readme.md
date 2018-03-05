@@ -1,4 +1,9 @@
 ![build status](https://www.travis-ci.org/jingkanghou/praisebutton.svg?branch=master)
+
+## 说明
+该项目来自exercise,提出来单独建库，以尝试Travis-CI+gutHub的配置
+
+
 ## 结构  
 - 项目分层  
 Browser-->Node-->php-->mySQL  
@@ -293,6 +298,8 @@ http://blog.csdn.net/tjcyjd/article/details/50695922
   
 #### Travis-CI
 - 配合GitHub(成功在travis运行测试，但github中未能得到返回结果)
+  - .travis.yml，Travis-CI的配置文件
+  - [Travis-CI官网](https://www.travis-ci.org)，以github帐号登录
   - [持续集成平台：travis](http://wiki.jikexueyuan.com/project/node-lessons/travis.html)
   - [利用Travis CI 让你的github项目持续构建(Node.js为例)](https://www.cnblogs.com/whitewolf/archive/2013/04/14/3019838.html)
 - 自己的服务器部署(未实践)
