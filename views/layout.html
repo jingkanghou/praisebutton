@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta content="中文">
+
+  <title>{% block title %}My Site{% endblock %}</title>
+  {% block lib %}{% endblock %}
+  
+  {% block head-script %}{% endblock %}
+</head>
+
+<body {% block bodyevent %}{% endblock %}>
+
+  {% block content %}{% endblock %}
+
+</body>
+
+</html>

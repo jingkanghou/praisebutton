@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function () {
+      $("#test").click(function (e) { 
+        e.preventDefault();
+
+        // $.ajax({
+        //   type: "get",
+        //   url: "./service/controller/praise.php",
+        //   dataType: "json",
+        //   cache:false,
+        //   success: function (response) {
+        //     console.log(response);
+        //   },
+        //   error: function(error) {
+        //     console.log(error);
+        //   }
+        // });
+          console.time('jquery get data from html');
+        $.ajax({
+          type: "get",
+          url: "./service/controller/praise.php",
+          dataType: "json",
+          cache:false,
+          success: function (response) {
+            console.timeEnd('jquery get data from html');
+            console.log(response);
+          },
+          error: function(error) {
+            console.log(error);
+          }
+        });
+      });
+      $("#praise_test").click(function (e) { 
+        e.preventDefault();
+
+        $.ajax({
+          type: "post",
+          url: "./service/controller/praise.php",
+          dataType: "json",
+          success: function (response) {
+            console.log(response);
+          },
+          error: function(error) {
+            console.log(error);
+          }
+        });
+      });
+  });
+  </script>
+</head>
+<body>
+<button id="test">get count</button>
+
+<button id="praise_test">praise test</button>
+</body>
+</html>
