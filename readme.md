@@ -1,4 +1,4 @@
-![build status](https://www.travis-ci.org/jingkanghou/praisebutton.svg?branch=master)  
+[![build status](https://www.travis-ci.org/jingkanghou/praisebutton.svg?branch=master)](https://www.travis-ci.org/jingkanghou/praisebutton)
 
 ## 说明  
 该项目来自exercise,提出来单独建库，以尝试Travis-CI+gutHub的配置  
