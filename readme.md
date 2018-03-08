@@ -297,7 +297,7 @@ https://www.jianshu.com/p/01f574b1a29f
 http://blog.csdn.net/tjcyjd/article/details/50695922  
   
 #### Travis-CI  
-- 配合GitHub(成功在travis运行测试，但github中未能得到返回结果)  
+- 配合GitHub(成功在travis运行测试)  
   - .travis.yml，Travis-CI的配置文件  
   - 使用Karma时，karma.conf.js中singleRun需要设置为true  
   - [Travis-CI官网](https://www.travis-ci.org)，以github帐号登录  
