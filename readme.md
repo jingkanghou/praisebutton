@@ -299,7 +299,9 @@ http://blog.csdn.net/tjcyjd/article/details/50695922
 #### Travis-CI  
 - 配合GitHub(成功在travis运行测试，但github中未能得到返回结果)  
   - .travis.yml，Travis-CI的配置文件  
+  - 使用Karma时，karma.conf.js中singleRun需要设置为true  
   - [Travis-CI官网](https://www.travis-ci.org)，以github帐号登录  
+  - [持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)（推荐）  
   - [持续集成平台：travis](http://wiki.jikexueyuan.com/project/node-lessons/travis.html)  
   - [利用Travis CI 让你的github项目持续构建(Node.js为例)](https://www.cnblogs.com/whitewolf/archive/2013/04/14/3019838.html)  
 - 自己的服务器部署(未实践)  
