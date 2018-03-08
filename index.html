@@ -23,14 +23,14 @@
         //     console.log(error);
         //   }
         // });
-          console.time('jquery get data from html');
+          console.time('$.ajax get data from html');
         $.ajax({
           type: "get",
           url: "./service/controller/praise.php",
           dataType: "json",
           cache:false,
           success: function (response) {
-            console.timeEnd('jquery get data from html');
+            console.timeEnd('$.ajax get data from html');
             console.log(response);
           },
           error: function(error) {
